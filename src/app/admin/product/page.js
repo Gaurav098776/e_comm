@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Plus, Edit2, Trash2 } from 'lucide-react';
 import toast from 'react-hot-toast';
 
-const API_URL = 'http://localhost:3000/api/products';
+const API_URL = "https://e-comm-pearl.vercel.app/api/products";
 
 const AdminDashboard = () => {
   const [isMounted, setIsMounted] = useState(false);
